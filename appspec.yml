@@ -4,6 +4,7 @@ files:
   - source: index.html
     destination: /var/www/html/
     overwrite: true
+
 hooks:
   AfterInstall:
     - location: scripts/deploy.sh
